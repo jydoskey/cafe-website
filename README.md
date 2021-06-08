@@ -1,4 +1,4 @@
-# cafeone-website
+# cafe-website
 
 ## Build Setup
 
