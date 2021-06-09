@@ -1,0 +1,59 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+
+
+.section-heading{
+  margin: 0 0 1rem;
+  font: {
+    size: 1.5rem;
+    weight: $semi-bold;
+  };
+  line-height: 1.3;
+  color: $black;
+  @include breakpoint-min(md){
+    font-size: 2rem;
+  }
+  &.section-heading--sm {
+    font-size: 1.125rem;
+    @include breakpoint-min(md){
+      font-size: 1.5rem;
+    }
+  }
+}
+.section-para{
+  color: $black;
+  margin: 0 0 1rem;
+  font: {
+    size: 1rem;
+    weight: $regular;
+  };
+  line-height: 1.75;
+  @include breakpoint-min(md){
+    font-size: 1.125rem;
+    line-height: 2;
+  }
+}
+.section-width-600{
+  max-width: 600px;
+  margin: {
+    left: auto;
+    right: auto;
+  };
+}
+
+.static-section{
+  position: relative;
+  padding: 3.75rem 0;
+  @include breakpoint-min(md){
+    padding: 5rem 0 6.25rem;
+  }
+  &.static-section--dark{
+    .section-heading{
+      color: $white;
+    }
+    .section-para{
+      color: rgba($white, .87);
+    }
+  }
+}

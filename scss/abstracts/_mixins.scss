@@ -1,0 +1,75 @@
+@import "variables";
+
+//--Responsive Mixins--//
+@mixin breakpoint-min($class) {
+  @if ($class==xs) {
+    @media (min-width: 425px) {
+      @content
+    }
+  }
+  @else if ($class==sm) {
+    @media (min-width: 576px) {
+      @content
+    }
+  }
+  @else if ($class==md) {
+    @media (min-width: 768px) {
+      @content
+    }
+  }
+  @else if ($class==lg) {
+    @media (min-width: 992px) {
+      @content
+    }
+  }
+  @else if ($class==xl) {
+    @media (min-width: 1200px) {
+      @content
+    }
+  }
+  @else if ($class==xxl) {
+    @media (min-width: 1400px) {
+      @content
+    }
+  }
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg, xl, xxl"
+  }
+}
+
+
+@mixin breakpoint-max($class) {
+  @if ($class==xs) {
+    @media (max-width: 424px) {
+      @content
+    }
+  }
+  @else if ($class==sm) {
+    @media (max-width: 575px) {
+      @content
+    }
+  }
+  @else if ($class==md) {
+    @media (max-width: 767px) {
+      @content
+    }
+  }
+  @else if ($class==lg) {
+    @media (max-width: 991px) {
+      @content
+    }
+  }
+  @else if ($class==xl) {
+    @media (max-width: 1199px) {
+      @content
+    }
+  }
+  @else if ($class==xxl) {
+    @media (max-width: 1399px) {
+      @content
+    }
+  }
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg, xl, xxl"
+  }
+};
