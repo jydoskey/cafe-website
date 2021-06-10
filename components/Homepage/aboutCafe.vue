@@ -73,7 +73,7 @@
     top: 0;
     right: 0;
 
-    @include breakpoint-max (md) {
+    @include breakpoint-max (lg) {
       width: 100%;
       position: relative;
       height: 50vh;
@@ -82,14 +82,14 @@
 
   .about-us {
     width: 100%;
-    height: 20rem;
+    height: auto;
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
 
     &::after {
       width: 100%;
-      height: 20rem;
+      height: 60vh;
       z-index: 1;
       background: #474E59;
       position: relative;
@@ -100,6 +100,16 @@
       @include breakpoint-min (lg) {
         width: 100%;
         height: 35rem;
+      }
+
+      @media (max-width:380px) {
+        width: 100%;
+        height: 125vh;
+      }
+
+      @media (max-width:320px) {
+        width: 100%;
+        height: 155vh;
       }
     }
 
@@ -115,6 +125,7 @@
     display: block;
     color: #ffffff;
     padding: 1.875rem 2.75rem;
+    height: auto;
   }
 
   .about-text h2 {
