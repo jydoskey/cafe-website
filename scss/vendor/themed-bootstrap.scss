@@ -1,0 +1,24 @@
+// Overrides
+@import "../abstracts/variables";
+
+$theme-colors: ();
+$theme-colors: map-merge((
+  "red": $red,
+  "purple": $purple,
+  "yellow": $yellow,
+  "blue": $blue,
+  "green": $green,
+  "black":  $black,
+  "steel": $steel,
+  "slate": $slate,
+  "silver": $silver,
+  "smoke": $smoke,
+  "dark-smoke": $dark-smoke,
+  "extra-dark-smoke": $extra-dark-smoke,
+  "snow": $snow,
+  "dark-snow": $dark-snow,
+  "extra-dark-snow": $extra-dark-smoke,
+  "white": $white
+), $theme-colors);
+
+

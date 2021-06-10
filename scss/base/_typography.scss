@@ -1,0 +1,175 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+html,body {
+  font-family: $lato-font, sans-serif;
+  font-weight: $regular;
+  font-size: 16px;
+  color: $black;
+}
+
+h1, h2, h3, h4, h5, h6, .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
+  line-height: 1.25;
+  margin-top: 0;
+}
+
+h1, .heading-1,
+h2, .heading-2,
+h3, .heading-3,
+h4, .heading-4 {
+  font-weight: $extra-bold;
+  margin-bottom: 1.25rem;
+}
+
+h5, .heading-5,
+h6, .heading-6 {
+  font-weight: $bold;
+  margin-bottom: 1rem;
+}
+
+h1, .heading-1 {
+  font-size: $fontSize-xxxl;
+}
+h2, .heading-2 {
+  font-size: $fontSize-xxl;
+}
+h3, .heading-3 {
+  font-size: $fontSize-xl;
+}
+h4, .heading-4 {
+  font-size: $fontSize-l;
+}
+h5, .heading-5 {
+  font-size: $fontSize-m;
+}
+h6, .heading-6 {
+  font-size: $fontSize-r;
+}
+
+p, .paragraph {
+  font-size: $fontSize-s;
+  font-weight: $regular;
+  line-height: 1.75;
+}
+
+small, .small {
+  font-size: $fontSize-xs;
+  font-weight: $regular;
+  line-height: 1.5;
+}
+
+// DESKTOP TYPOGRAPHY
+@include breakpoint-min (lg) {
+
+  h1, .heading-1 {
+    font-size: $fontSize-xxxxl;
+  }
+  h2, .heading-2 {
+    font-size: $fontSize-xxxl;
+  }
+  h3, .heading-3 {
+    font-size: $fontSize-xxl;
+  }
+  h4, .heading-4 {
+    font-size: $fontSize-xl;
+  }
+  h5, .heading-5 {
+    font-size: $fontSize-l;
+  }
+  h6, .heading-6 {
+    font-size: $fontSize-m;
+  }
+  
+  p, .paragraph {
+    font-size: $fontSize-r;
+  }
+  
+  small, .small {
+    font-size: $fontSize-s;
+  }
+}
+
+@include breakpoint-max (xs) {
+  .heading-2, h2 {
+    font-size: 25px;
+  }
+  .heading-6, h6 {
+    font-size: 20px; 
+  }
+  p, .paragraph {
+    font-size: 14px;
+  }
+  h4, .heading-4 {
+    font-size: 20px;
+  }
+}
+
+@include breakpoint-min (xs) {
+ .heading-2, h2 {
+   font-size: 28px;
+ }
+ .heading-6, h6 {
+   font-size: 22px;
+ }
+ p, .paragraph {
+   font-size: 16px;
+ }
+ h4, .heading-4 {
+   font-size: 22px;
+ }
+}
+
+@include breakpoint-min (md) {
+  .heading-2, h2 {
+    font-size: 30px;
+  }
+  .heading-6, h6 {
+    font-size: 22px;
+  }
+  p, .paragraph {
+    font-size: 18px;
+  }
+  h4, .heading-4 {
+    font-size: 25px;
+  }
+}
+
+@include breakpoint-min (xl) {
+  .heading-2, h2 {
+    font-size: 36px;
+  }
+  .heading-6, h6 {
+    font-size: 25px;
+  }
+  p, .paragraph {
+    font-size: 25px;
+  }
+  h4, .heading-4 {
+    font-size: 30px;
+  }
+}
+
+@include breakpoint-min (xxl) {
+  .heading-2, h2 {
+  font-size: 70px;
+  }
+  h4, .heading-4 {
+    font-size: 48px;
+  }
+}
+
+.text-regular {
+  font-weight: $regular !important;
+}
+.text-semibold {
+  font-weight: $semi-bold !important;
+}
+.text-bold {
+  font-weight: $bold !important;
+}
+.text-extrabold {
+  font-weight: $extra-bold !important;
+}
