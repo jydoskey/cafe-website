@@ -4,59 +4,56 @@
   </div>
 </template>
 
-<style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+<style lang="scss">
+  @import "@/scss/vendor/themed-bootstrap.scss";
+  @import "@/scss/main.scss";
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+body{
+  overflow-x: hidden !important;
 }
+  .app-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+    margin: 0 auto;
+  }
+  .app-main {
+    flex: 1 0 auto;
+  }
+  .btn-lilac {
+    background-color: #c82b81;
+    color: #fff;
+    width: 242px;
+    height: 71px;
+    padding: 14px 46px 23px;
+  }
+  .btn {
+    border-radius: 10px;
+  }
+  .btn-green {
+    background-color: #29b36a;
+    color: #fff;
+  }
+  .btn-red {
+    background-color: #ff3366;
+    color: #fff;
+  }
+  .btn-orange {
+    background: #ff565c;
+    color: #fff;
+  }
+  .no-gap {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .top-page {
+    margin-top: 78px;
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+    @include breakpoint-min(md) {
+      margin-top: 78px;
+    }
+  }
 </style>
+
