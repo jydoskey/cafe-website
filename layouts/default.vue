@@ -54,7 +54,7 @@
   }
 
   .btn-red {
-    background-color: #ff3366;
+    background-color: #BC2934;
     color: #fff;
   }
 
