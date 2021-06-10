@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-4">
-          <div class="cafe-footer__section">
+          <div class="cafe-footer__section footer-header">
             <h6 class="company-footer__heading">Café One</h6>
             <p class="cafe-footer__link">At Café One, innovation meets community.<br /> We play host to Sterling Bank’s
               digital <br /> products; offering
@@ -232,6 +232,11 @@
   .social-links {
     display: flex;
     margin-bottom: 2.5rem;
+
+    @include breakpoint-max (md) {
+      margin: 0 auto;
+      justify-content: center;
+    }
   }
 
   .social-link {
@@ -278,6 +283,12 @@
   .icon {
     width: 2rem;
     height: 2rem;
+  }
+
+  .footer-header {
+    @include breakpoint-max (md) {
+      text-align: center;
+    }
   }
 
 </style>
