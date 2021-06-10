@@ -45,6 +45,7 @@
     height: auto;
     object-fit: contain;
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .take-tour-content {
