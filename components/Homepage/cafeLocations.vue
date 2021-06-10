@@ -100,9 +100,10 @@
 
   .bitmap {
     width: 100%;
-    height: 25rem;
+    display: block;
+    height: 28rem;
     margin: 0;
-    object-fit: contain;
+    object-fit: cover;
   }
 
   span {
