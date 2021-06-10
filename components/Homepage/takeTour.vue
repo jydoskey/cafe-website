@@ -3,7 +3,7 @@
     <div class="take-tour">
       <div class="container">
         <div class="row take-tour-content pb-4">
-          <div class="col-xl-5 col-lg-5 header">
+          <div class="col-md-5 col-lg-5 header">
             <h2 class="contact-section__title header-text">
               Take A Tour Take A Tour Take A Tour
             </h2>
@@ -39,12 +39,13 @@
 
   .take-tour {
     background-image: url("@/assets/img/taketour.svg");
-    margin: 40px auto 0px;
+    margin: 6rem auto 0px;
     padding-bottom: 2rem;
     width: 100%;
     height: auto;
     object-fit: contain;
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .take-tour-content {
@@ -91,7 +92,7 @@
     }
 
     .header-p {
-      width: 90%;
+      width: 100%;
       margin: auto;
       height: 56px;
     }
