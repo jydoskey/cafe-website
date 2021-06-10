@@ -39,7 +39,7 @@
 
   .take-tour {
     background-image: url("@/assets/img/taketour.svg");
-    margin: 40px auto 0px;
+    margin: 6rem auto 0px;
     padding-bottom: 2rem;
     width: 100%;
     height: auto;
