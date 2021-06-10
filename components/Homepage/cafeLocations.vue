@@ -13,7 +13,7 @@
         <h2 class="newsletter">Subscribe To Our Newsletters</h2>
       </div>
       <div>
-        <form class="col-lg-4 justify-content-center mr-auto ml-auto">
+        <form class="col-lg-4 col-md-6 justify-content-center mr-auto ml-auto">
           <div class="form-group">
             <input type="email" name="email" class="form-control form-control-lg email" id="email"
               aria-describedby="email" placeholder="Email" />
