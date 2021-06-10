@@ -2,7 +2,7 @@
   <div class="cafe-locations">
     <div class="container cafe-locations-body col">
       <div class="d-flex justify-content-center pb-2">
-        <h2 class="locations">Café One L cations</h2>
+        <h2 class="locations">Café One L<img src="@/assets/img/location-marker.svg" alt="location-marker">cations</h2>
       </div>
       <div class="tables text-center pb-5">
         <iframe
