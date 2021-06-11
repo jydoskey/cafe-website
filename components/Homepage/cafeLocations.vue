@@ -60,7 +60,7 @@
 
   .cafe-locations {
     background-color: #ffffff;
-    margin: 80px 0px;
+    margin: 10px 0px 80px;
     color: #474E59;
   }
 
