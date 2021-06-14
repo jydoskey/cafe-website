@@ -6,7 +6,7 @@
         <h2>Café One Talk And<br /> Events</h2>
       </div>
       <span class="upcomingevents-text d-flex justify-content-between align-items-center">
-        Some text about events come here. Some text<br/> about events come here
+        Some text about events come here. Some text<br /> about events come here
         <span style="color:#BC2934">View all events &nbsp;&nbsp;<img src="@/assets/img/more-events-arrow.svg"
             alt="more events arrow"></span>
       </span>
