@@ -1,6 +1,6 @@
 <template>
-  <div class="upcomingevents">
-    <div class="container upcomingevents-body col justify-content-between">
+  <div class="pastevents">
+    <div class="container pastevents-body col justify-content-between">
       <div>
         <span class="events">PAST EVENTS &nbsp;<img src="@/assets/img/events-marker.svg" alt="event marker"></span>
         <h2>Some Text About Events That<br /> Have Happened Comes Here</h2>
@@ -163,7 +163,7 @@
     height: 18rem;
   }
 
-  .upcomingevents-text {
+  .pastevents-text {
     font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
@@ -176,22 +176,20 @@
     padding-bottom: 1.5rem;
     margin-right: auto;
     margin-left: 0;
-    // max-width: 377px;
-    // width: 100%;
   }
 
-  .upcomingevents {
+  .pastevents {
     margin: 40px 0px 0;
   }
 
-  .upcomingevents-body {
+  .pastevents-body {
     width: 1150px;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 20px;
   }
 
-  .upcomingevents-body h2 {
+  .pastevents-body h2 {
     font-size: 40px;
     font-weight: 800;
     font-stretch: normal;
@@ -220,17 +218,17 @@
   }
 
   @media only screen and (max-width: 1150px) {
-    .upcomingevents-body {
+    .pastevents-body {
       display: block;
       align-items: center;
       justify-content: center;
     }
 
-    .upcomingevents-body h2 {
+    .pastevents-body h2 {
       font-size: 32px;
     }
 
-    .upcomingevents-body p {
+    .pastevents-body p {
       margin-bottom: 70px;
     }
 
@@ -249,11 +247,11 @@
   }
 
   @media only screen and (max-width: 1150px) {
-    .upcomingevents-body {
+    .pastevents-body {
       width: 99%;
     }
 
-    .upcomingevents-body p {
+    .pastevents-body p {
       margin-bottom: 30px;
     }
   }
