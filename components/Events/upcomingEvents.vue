@@ -53,7 +53,7 @@
 </template>
 <script>
   export default {
-    name: "pastEvents",
+    name: "upcomingEvents",
     data() {
       return {}
     },
