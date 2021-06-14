@@ -12,7 +12,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active carousel-item-left">
             <div class="d-flex">
-              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                 <a href="#" class="introduce">
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-1.jpeg" alt="img-1">
@@ -22,7 +22,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                 <a href="#" class="introduce">
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-2.jpeg" alt="img-2">
@@ -32,7 +32,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column">
+              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                 <a href="#" class="introduce">
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-3.jpeg" alt="img-3">
@@ -46,8 +46,8 @@
 
           </div>
           <div class="carousel-item carousel-item-next carousel-item-left">
-            <div class="d-flex">
-              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+            <div class="d-flex justify-content-between">
+              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                 <a href="#" class="introduce">
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-1.jpeg" alt="img-1">
@@ -57,7 +57,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                 <a href="#" class="introduce">
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-2.jpeg" alt="img-2">
@@ -67,7 +67,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column">
+              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                 <a href="#" class="introduce">
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-3.jpeg" alt="img-3">
@@ -81,7 +81,7 @@
           </div>
           <div class="carousel-item ">
             <div class="d-flex">
-              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                 <a href="#" class="introduce">
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-1.jpeg" alt="img-1">
@@ -91,7 +91,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                 <a href="#" class="introduce">
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-2.jpeg" alt="img-2">
@@ -101,7 +101,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column">
+              <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                 <a href="#" class="introduce">
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-3.jpeg" alt="img-3">

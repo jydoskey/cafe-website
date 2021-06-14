@@ -1,12 +1,14 @@
 <template>
   <div class="upcomingevents">
-    <div class="container upcomingevents-body col">
+    <div class="container upcomingevents-body col justify-content-between">
       <div>
         <span class="events">UPCOMING EVENTS &nbsp;<img src="@/assets/img/events-marker.svg" alt="event marker"></span>
         <h2>Café One Talk And<br /> Events</h2>
       </div>
-      <span class="upcomingevents-text">
-        Some text about events come here. Some text about events come here
+      <span class="upcomingevents-text d-flex justify-content-between align-items-center">
+        Some text about events come here. Some text<br /> about events come here
+        <span style="color:#BC2934">View all events &nbsp;&nbsp;<img src="@/assets/img/more-events-arrow.svg"
+            alt="more events arrow"></span>
       </span>
       <div class="tables text-start">
         <slider />
@@ -44,8 +46,8 @@
     padding-bottom: 1.5rem;
     margin-right: auto;
     margin-left: 0;
-    max-width: 377px;
-    width: 100%;
+    // max-width: 377px;
+    // width: 100%;
   }
 
   .upcomingevents {
