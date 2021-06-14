@@ -17,7 +17,7 @@
                       <div class="flex-column-1 ">
                         <img src="@/assets/img/event-1.jpeg" alt="img-1">
                       </div>
-                      <div class="flex-column-2-red">
+                      <div class="flex-column-2-grey">
 
                       </div>
                     </a>
@@ -37,7 +37,7 @@
                       <div class="flex-column-1 ">
                         <img src="@/assets/img/event-3.jpeg" alt="img-3">
                       </div>
-                      <div class="flex-column-2-red">
+                      <div class="flex-column-2-grey">
 
                       </div>
                     </a>

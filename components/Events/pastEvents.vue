@@ -27,7 +27,7 @@
                       <div class="flex-column-1 ">
                         <img src="@/assets/img/event-2.jpeg" alt="img-2">
                       </div>
-                      <div class="flex-column-2-grey">
+                      <div class="flex-column-2-red">
 
                       </div>
                     </a>
@@ -63,7 +63,7 @@
                       <div class="flex-column-1 ">
                         <img src="@/assets/img/event-2.jpeg" alt="img-2">
                       </div>
-                      <div class="flex-column-2-grey">
+                      <div class="flex-column-2-red">
 
                       </div>
                     </a>
