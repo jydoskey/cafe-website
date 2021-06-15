@@ -17,8 +17,14 @@
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-1.jpeg" alt="img-1">
                   </div>
-                  <div class="flex-column-2-red">
-
+                  <div class="d-flex flex-column-2-red align-items-center">
+                    <div class="event-time p-2">
+                      <span>10 April</span>
+                      <span>9am - 10am</span>
+                    </div>
+                    <div class="register text-center">
+                      Register &nbsp;&nbsp;<img src="@/assets/img/register.png" alt="register">
+                    </div>
                   </div>
                 </a>
               </div>
@@ -27,8 +33,14 @@
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-2.jpeg" alt="img-2">
                   </div>
-                  <div class="flex-column-2-grey">
-
+                  <div class="d-flex flex-column-2-grey align-items-center">
+                    <div class="event-time p-2">
+                      <span>10 April</span>
+                      <span>9am - 10am</span>
+                    </div>
+                    <div class="register text-center">
+                      Register &nbsp;&nbsp;<img src="@/assets/img/register.png" alt="register">
+                    </div>
                   </div>
                 </a>
               </div>
@@ -37,8 +49,14 @@
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-3.jpeg" alt="img-3">
                   </div>
-                  <div class="flex-column-2-red">
-
+                  <div class="d-flex flex-column-2-red align-items-center">
+                    <div class="event-time p-2">
+                      <span>10 April</span>
+                      <span>9am - 10am</span>
+                    </div>
+                    <div class="register text-center">
+                      Register &nbsp;&nbsp;<img src="@/assets/img/register.png" alt="register">
+                    </div>
                   </div>
                 </a>
               </div>
@@ -52,8 +70,14 @@
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-1.jpeg" alt="img-1">
                   </div>
-                  <div class="flex-column-2-red">
-
+                  <div class="d-flex flex-column-2-red align-items-center">
+                    <div class="event-time p-2">
+                      <span>10 April</span>
+                      <span>9am - 10am</span>
+                    </div>
+                    <div class="register text-center">
+                      Register &nbsp;&nbsp;<img src="@/assets/img/register.png" alt="register">
+                    </div>
                   </div>
                 </a>
               </div>
@@ -62,8 +86,14 @@
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-2.jpeg" alt="img-2">
                   </div>
-                  <div class="flex-column-2-grey">
-
+                  <div class="d-flex flex-column-2-grey align-items-center">
+                    <div class="event-time p-2">
+                      <span>10 April</span>
+                      <span>9am - 10am</span>
+                    </div>
+                    <div class="register text-center">
+                      Register &nbsp;&nbsp;<img src="@/assets/img/register.png" alt="register">
+                    </div>
                   </div>
                 </a>
               </div>
@@ -72,8 +102,14 @@
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-3.jpeg" alt="img-3">
                   </div>
-                  <div class="flex-column-2-red">
-
+                  <div class="d-flex flex-column-2-red align-items-center">
+                    <div class="event-time p-2">
+                      <span>10 April</span>
+                      <span>9am - 10am</span>
+                    </div>
+                    <div class="register text-center">
+                      Register &nbsp;&nbsp;<img src="@/assets/img/register.png" alt="register">
+                    </div>
                   </div>
                 </a>
               </div>
@@ -86,8 +122,14 @@
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-1.jpeg" alt="img-1">
                   </div>
-                  <div class="flex-column-2-red">
-
+                  <div class="d-flex flex-column-2-red align-items-center">
+                    <div class="event-time p-2">
+                      <span>10 April</span>
+                      <span>9am - 10am</span>
+                    </div>
+                    <div class="register text-center">
+                      Register &nbsp;&nbsp;<img src="@/assets/img/register.png" alt="register">
+                    </div>
                   </div>
                 </a>
               </div>
@@ -96,8 +138,14 @@
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-2.jpeg" alt="img-2">
                   </div>
-                  <div class="flex-column-2-grey">
-
+                  <div class="d-flex flex-column-2-grey align-items-center">
+                    <div class="event-time p-2">
+                      <span>10 April</span>
+                      <span>9am - 10am</span>
+                    </div>
+                    <div class="register text-center">
+                      Register &nbsp;&nbsp;<img src="@/assets/img/register.png" alt="register">
+                    </div>
                   </div>
                 </a>
               </div>
@@ -106,8 +154,14 @@
                   <div class="flex-column-1 ">
                     <img src="@/assets/img/event-3.jpeg" alt="img-3">
                   </div>
-                  <div class="flex-column-2-red">
-
+                  <div class="d-flex flex-column-2-red align-items-center">
+                    <div class="event-time p-2">
+                      <span>10 April</span>
+                      <span>9am - 10am</span>
+                    </div>
+                    <div class="register text-center">
+                      Register &nbsp;&nbsp;<img src="@/assets/img/register.png" alt="register">
+                    </div>
                   </div>
                 </a>
               </div>
@@ -188,6 +242,35 @@
   img {
     width: 100%;
     height: 18rem;
+  }
+
+  .event-time span {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    display: block;
+  }
+
+  .event-time {
+    width: 50%;
+  }
+
+  .register {
+    width: 50%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFE6BA;
+  }
+
+  .register img {
+    width: 2.241875rem;
+    height: 0.636875rem;
   }
 
 </style>
