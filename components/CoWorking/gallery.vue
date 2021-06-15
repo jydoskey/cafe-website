@@ -132,7 +132,7 @@
   }
 
   .gallery {
-    margin: 40px 0px 0;
+    margin: 40px 0px 50px;
   }
 
   .gallery-body {
@@ -151,6 +151,7 @@
     letter-spacing: normal;
     color: #474E59;
     text-align: start;
+    font-family: Lora;
   }
 
   .tables {
@@ -209,6 +210,7 @@
     color: #222831;
     margin: 0;
     text-transform: uppercase;
+    font-family: Lato;
   }
 
   .introduce {

@@ -198,6 +198,7 @@
     letter-spacing: normal;
     color: #474E59;
     text-align: start;
+    font-family: Lora;
   }
 
   .tables {
@@ -263,6 +264,7 @@
     line-height: 30px;
     color: #222831;
     margin: 0;
+    font-family: Lato;
   }
 
 </style>

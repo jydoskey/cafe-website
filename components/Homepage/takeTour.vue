@@ -62,6 +62,7 @@
     text-align: left;
     line-height: 1.24;
     letter-spacing: 1.17px;
+    font-family: Lora;
 
     @include breakpoint-max (md) {
       text-align: center;
@@ -78,6 +79,7 @@
     letter-spacing: normal;
     text-align: start;
     color: #ffffff;
+    font-family: Lato;
 
     @include breakpoint-max (md) {
       text-align: center;

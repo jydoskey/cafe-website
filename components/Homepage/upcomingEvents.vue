@@ -46,8 +46,7 @@
     padding-bottom: 1.5rem;
     margin-right: auto;
     margin-left: 0;
-    // max-width: 377px;
-    // width: 100%;
+    font-family: Lato;
   }
 
   .upcomingevents {
@@ -70,6 +69,7 @@
     letter-spacing: normal;
     color: #474E59;
     text-align: start;
+    font-family: Lora;
   }
 
   .tables {
@@ -135,6 +135,7 @@
     line-height: 30px;
     color: #222831;
     margin: 0;
+    font-family: Lato;
   }
 
 </style>

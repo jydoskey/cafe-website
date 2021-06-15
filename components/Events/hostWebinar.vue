@@ -207,6 +207,7 @@
   .newsletter {
     font-size: 2.125rem;
     line-height: 44px;
+    font-family: Lora;
   }
 
   input::-webkit-datetime-edit,
