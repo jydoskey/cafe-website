@@ -130,14 +130,17 @@
 
   .about-text h2 {
     font-size: 1.7rem;
+    font-family: Lora;
   }
 
   .about-text h3 {
     font-size: 1.25rem;
+    font-family: Lora;
   }
 
   .about-text p {
     font-size: 1.00rem;
+    font-family: Lato;
   }
 
 </style>

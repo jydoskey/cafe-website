@@ -152,11 +152,13 @@
   .newsletter {
     font-size: 2.125rem;
     line-height: 44px;
+    font-family: Lora;
   }
 
   .locations {
     font-size: 2.5rem;
     line-height: 51px;
+    font-family: Lora;
   }
 
 </style>
