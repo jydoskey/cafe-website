@@ -132,7 +132,7 @@
   }
 
   .gallery {
-    margin: 40px 0px 0;
+    margin: 40px 0px 50px;
   }
 
   .gallery-body {
