@@ -1,16 +1,19 @@
 <template>
   <div>
+    <bookSpace />
     <subscription />
     <gallery />
   </div>
 </template>
 <script>
-  import gallery from "@/components/CoWorking/gallery.vue";
+  import bookSpace from "@/components/CoWorking/bookSpace.vue";
   import subscription from '@/components/CoWorking/subscription.vue';
+  import gallery from "@/components/CoWorking/gallery.vue";
   export default {
     components: {
-      gallery,
-      subscription
+      bookSpace,
+      subscription,
+      gallery
     }
   }
 
