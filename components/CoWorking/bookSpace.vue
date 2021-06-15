@@ -45,6 +45,8 @@
           </g>
         </svg>
         <form class="col-lg-4 col-md-6 justify-content-center mr-auto ml-auto">
+          <p class="space-pricing align-items-center"><img src="@/assets/img/Group.svg" alt="info-icon"> N 30,000 per
+            hour</p>
           <div class="form-group">
             <input type="text" name="location" class="form-control form-control-lg" id="location"
               aria-describedby="location" placeholder="Location" required />
@@ -61,7 +63,8 @@
             <input type="date" name="date" class="form-control form-control-lg" id="date" aria-describedby="date"
               placeholder="Date" required />
           </div>
-          <div class="text-center">
+          <p class="discount pt-2">There is a discount for Sterling bank<br /> account holders</p>
+          <div class="text-center pt-2">
             <button type="submit" id="submit" name="submit" class="btn btn-lg btn-block btn-red">
               BOOK
             </button>
@@ -215,6 +218,25 @@
   input::-webkit-clear-button {
     font-size: 16px;
     color: gray;
+  }
+
+  .space-pricing {
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFE6BA;
+  }
+
+  .discount {
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFE6BA;
   }
 
 </style>
