@@ -25,21 +25,21 @@
                   <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                     <a href="#" class="introduce">
                       <div class="flex-column-1 ">
-                        <img src="@/assets/img/cafeone_listing_images.svg" alt="img-1">
+                        <img src="@/assets/img/gallery/gallery-1.jpeg" alt="cafe-one gallery">
                       </div>
                     </a>
                   </div>
                   <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                     <a href="#" class="introduce">
                       <div class="flex-column-1 ">
-                        <img src="@/assets/img/cafeone_listing_images.svg" alt="img-2">
+                        <img src="@/assets/img/gallery/gallery-2.jpeg" alt="cafe-one gallery">
                       </div>
                     </a>
                   </div>
                   <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                     <a href="#" class="introduce">
                       <div class="flex-column-1 ">
-                        <img src="@/assets/img/cafeone_listing_images.svg" alt="img-3">
+                        <img src="@/assets/img/gallery/gallery-3.jpeg" alt="cafe-one gallery">
                       </div>
                     </a>
                   </div>
@@ -51,21 +51,21 @@
                   <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                     <a href="#" class="introduce">
                       <div class="flex-column-1 ">
-                        <img src="@/assets/img/cafeone_listing_images.svg" alt="img-1">
+                        <img src="@/assets/img/gallery/gallery-4.jpeg" alt="cafe-one gallery">
                       </div>
                     </a>
                   </div>
                   <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                     <a href="#" class="introduce">
                       <div class="flex-column-1 ">
-                        <img src="@/assets/img/cafeone_listing_images.svg" alt="img-2">
+                        <img src="@/assets/img/gallery/gallery-5.jpeg" alt="cafe-one gallery">
                       </div>
                     </a>
                   </div>
                   <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                     <a href="#" class="introduce">
                       <div class="flex-column-1 ">
-                        <img src="@/assets/img/cafeone_listing_images.svg" alt="img-3">
+                        <img src="@/assets/img/gallery/gallery-6.jpeg" alt="cafe-one gallery">
                       </div>
                     </a>
                   </div>
@@ -76,21 +76,21 @@
                   <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                     <a href="#" class="introduce">
                       <div class="flex-column-1 ">
-                        <img src="@/assets/img/cafeone_listing_images.svg" alt="img-1">
+                        <img src="@/assets/img/gallery/gallery-7.jpeg" alt="cafe-one gallery">
                       </div>
                     </a>
                   </div>
                   <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                     <a href="#" class="introduce">
                       <div class="flex-column-1 ">
-                        <img src="@/assets/img/cafeone_listing_images.svg" alt="img-2">
+                        <img src="@/assets/img/gallery/gallery-8.jpeg" alt="cafe-one gallery">
                       </div>
                     </a>
                   </div>
                   <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
                     <a href="#" class="introduce">
                       <div class="flex-column-1 ">
-                        <img src="@/assets/img/cafeone_listing_images.svg" alt="img-3">
+                        <img src="@/assets/img/gallery/gallery-9.jpeg" alt="cafe-one gallery">
                       </div>
                     </a>
                   </div>
