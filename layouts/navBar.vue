@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar my-0" :class="{ change_color: scrollPosition > 80 }">
+  <div class="navbar p-0 m-0" :class="{ change_color: scrollPosition > 70 }">
     <div class="container">
       <div class="logo">
         <NuxtLink to="/">
@@ -56,12 +56,14 @@ export default {
 <style lang="scss" scoped>
 .navbar {
   /* background: #000; */
-  position: sticky;
+  position: absolute;
   top: 0;
+  width: 100%;
   z-index: 50000000;
 
   &.change_color {
     background: #000;
+    position: sticky;
     /* z-index: 100;
 	box-shadow: 0px -3px 12px 8px rgba(0, 0, 0, 0.13);
 	box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.2); */
