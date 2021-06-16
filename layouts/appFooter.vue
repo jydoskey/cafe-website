@@ -145,17 +145,17 @@
 
         socialLink: [{
             name: 'facebook',
-            url: '',
+            url: 'https://www.facebook.com/cafeoneng',
             iconClass: 'facebook.svg'
           },
           {
             name: 'twitter',
-            url: '',
+            url: 'https://twitter.com/cafeone_ng/',
             iconClass: 'twitter.svg'
           },
           {
             name: 'instagram',
-            url: '',
+            url: 'https://www.instagram.com/cafeone_nig/',
             iconClass: 'instagram.svg'
           },
         ],

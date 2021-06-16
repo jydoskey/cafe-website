@@ -8,12 +8,12 @@
       </div>
       <div class="links">
         <div class="about mx-2">
-          <NuxtLink to="/about" class="nav-link d-inline-block py-2 px-2"
+          <NuxtLink to="/#about-section" class="nav-link d-inline-block py-2 px-2"
             >About</NuxtLink
           >
         </div>
         <div class="co-working mx-2">
-          <NuxtLink to="/co-working" class="nav-link d-inline-block py-2 px-2"
+          <NuxtLink to="/co-work" class="nav-link d-inline-block py-2 px-2"
             >Co-Working</NuxtLink
           >
         </div>

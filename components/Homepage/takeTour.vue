@@ -10,9 +10,11 @@
             <p class="header-p">
               Some text comes here about taking a tour. Some text comes here about taking a tour
             </p>
-            <button type="submit" id="submit" name="submit" class="col-md-8 btn btn-lg btn-block btn-red">
-              TAKE A TOUR
-            </button>
+            <a href="https://www.360human.com.ng/tour/cafe-one-3/skinned/" target="_blank">
+              <button type="submit" id="submit" name="submit" class="col-md-8 btn btn-lg btn-block btn-red">
+                TAKE A TOUR
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -118,6 +120,10 @@
     @media (min-width: 1440px) {
       max-width: 1300px;
     }
+  }
+
+  a:link {
+    text-decoration: none;
   }
 
 </style>

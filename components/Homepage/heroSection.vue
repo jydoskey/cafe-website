@@ -3,12 +3,12 @@
     <div>
       <!-- <div class="row justify-content-center">
         <div class="col-xl-8 col-lg-10">
-          <h2 class="heading-2 home-section__title text-center" :class="titleClass">{{ title }}</h2>
-          <p class="paragraph home-section__description text-center" :class="descriptionClass"> {{ description }} </p>
+          <h2 class="heading-2 home-section__title text-center" :class="titleClass">Hello</h2>
+          <p class="paragraph home-section__description text-center" :class="descriptionClass"> description </p>
         </div>
       </div> -->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators mr-auto">
+        <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"><img
               src="@/assets/img/carousel/she-can.jpeg" class="d-block w-100">
           </li>
@@ -16,9 +16,7 @@
               class="d-block w-100"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"><img
               src="@/assets/img/carousel/braithwathe.jpeg" class="d-block w-100"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"><img src="@/assets/img/carousel/fisayo.jpeg"
-              class="d-block w-100"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"><img src="@/assets/img/carousel/adaobi.jpeg"
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"><img src="@/assets/img/carousel/adaobi.jpeg"
               class="d-block w-100"></li>
         </ol>
         <!-- <ol class="carousel-indicators">
@@ -37,9 +35,6 @@
           </div>
           <div class="carousel-item">
             <img src="@/assets/img/carousel/braithwathe.jpeg" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="@/assets/img/carousel/fisayo.jpeg" class="d-block w-100">
           </div>
           <div class="carousel-item">
             <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
@@ -146,25 +141,34 @@
     opacity: 1;
   }
 
+  .carousel-indicators {
+    margin-right: 0;
+
+    @include breakpoint-min (lg) {
+      width: initial;
+      margin-left: initial;
+      left: initial;
+      right: 10px;
+      bottom: 5rem;
+    }
+  }
+
   .carousel-item {
     @include breakpoint-min (lg) {
       height: 680px;
     }
   }
 
-  .carousel-item {}
-
   .overlay {
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(0, 0, 0);
     /* Black see-through */
     color: #f1f1f1;
     width: 100%;
     height: 100%;
-    transition: .5s ease;
-    opacity: 0.9;
+    opacity: 0.2;
     color: white;
     font-size: 20px;
     padding: 20px;
