@@ -7,8 +7,10 @@
       </div>
       <span class="upcomingevents-text d-flex justify-content-between align-items-center">
         Some text about events come here. Some text<br /> about events come here
-        <span style="color:#BC2934">View all events &nbsp;&nbsp;<img src="@/assets/img/more-events-arrow.svg"
-            alt="more events arrow"></span>
+        <nuxt-link to="/events">
+          <span class="link-text">View all events &nbsp;&nbsp;<img src="@/assets/img/more-events-arrow.svg"
+              alt="more events arrow"></span>
+        </nuxt-link>
       </span>
       <div class="tables text-start">
         <slider />
@@ -136,6 +138,18 @@
     color: #222831;
     margin: 0;
     font-family: Lato;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .link-text {
+    color: #BC2934
+  }
+
+  .link-text:hover {
+    color: #d11d2b;
   }
 
 </style>
