@@ -10,7 +10,7 @@
         <h2>Our subscription plans</h2>
       </div>
       <div class="tables text-start">
-        <div class="container col pt-5 position-relative pr-0 pl-0">
+        <div class="container col pt-4 position-relative pr-0 pl-0">
           <div class="card-deck">
             <div class="card text-center">
               <div class="card-body">
@@ -70,7 +70,7 @@ export default {
 .subscription-body {
   width: 1150px;
   margin: auto;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
