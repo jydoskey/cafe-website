@@ -29,10 +29,10 @@
                           Available
                         </div>
                       </div>
-                      <p class="space-type">Private Space</p>
+                      <p class="space-type pt-4">Private Space</p>
                       <p class="space-feature">Feature 1</p>
                       <p class="space-feature">Feature 2</p>
-                      <p class="space-feature">Feature 3</p>
+                      <p class="space-feature pb-3">Feature 3</p>
                       <div class="flex-column-2-red align-items-center">
                         <div class="register text-center text-white">
                           Book
@@ -50,10 +50,10 @@
                           Coming Soon
                         </div>
                       </div>
-                      <p class="space-type">Custom Office</p>
+                      <p class="space-type pt-4">Custom Office</p>
                       <p class="space-feature">Feature 1</p>
                       <p class="space-feature">Feature 2</p>
-                      <p class="space-feature">Feature 3</p>
+                      <p class="space-feature pb-3">Feature 3</p>
                       <div class="flex-column-2-grey align-items-center">
                         <div class="register text-center text-white">
                           Book
@@ -71,10 +71,10 @@
                           Coming Soon
                         </div>
                       </div>
-                      <p class="space-type">Working with team</p>
+                      <p class="space-type pt-4">Working with team</p>
                       <p class="space-feature">Feature 1</p>
                       <p class="space-feature">Feature 2</p>
-                      <p class="space-feature">Feature 3</p>
+                      <p class="space-feature pb-3">Feature 3</p>
                       <div class="flex-column-2-grey align-items-center">
                         <div class="register text-center text-white">
                           Book
@@ -179,7 +179,7 @@
   }
 
   .introduce {
-    height: 37.5rem;
+    height: 39.4rem;
     background-color: white;
     color: black;
   }
@@ -277,7 +277,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 16px;
+    line-height: 18px;
     color: #9A9A9A;
     padding-left: 1rem;
   }
