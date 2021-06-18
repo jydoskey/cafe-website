@@ -122,7 +122,6 @@
   .our-space-body {
     width: 1150px;
     margin: auto;
-    padding-top: 50px;
     padding-bottom: 20px;
   }
 
