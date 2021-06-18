@@ -4,16 +4,16 @@
       <div class="carousel-indicators-group">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
-            <img src="@/assets/img/carousel/she-can.jpeg" class="d-block w-100">
+            <img src="@/assets/img/gallery/gallery-1.jpeg" class="d-block w-100">
           </li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1">
-            <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
+            <img src="@/assets/img/gallery/carousel-yoga.jpeg" class="d-block w-100">
           </li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2">
-            <img src="@/assets/img/carousel/braithwathe.jpeg" class="d-block w-100">
+            <img src="@/assets/img/gallery/gallery-3.jpeg" class="d-block w-100">
           </li>
           <li data-target="#carouselExampleIndicators" data-slide-to="3">
-            <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
+            <img src="@/assets/img/gallery/service-magic.png" class="d-block w-100">
           </li>
         </ol>
         <ol class="carousel-progress">
@@ -35,7 +35,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="@/assets/img/carousel/she-can.jpeg" class="d-block w-100">
+          <img src="@/assets/img/gallery/gallery-1.jpeg" class="d-block w-100">
           
           <div class="carousel-caption">
             <h2 class="heading-2 home-section__title">
@@ -51,7 +51,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
+          <img src="@/assets/img/gallery/carousel-yoga.jpeg" class="d-block w-100">
 
           <div class="carousel-caption">
             <h2 class="heading-2 home-section__title">
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="@/assets/img/carousel/braithwathe.jpeg" class="d-block w-100">
+          <img src="@/assets/img/gallery/gallery-3.jpeg" class="d-block w-100">
 
           <div class="carousel-caption">
             <h2 class="heading-2 home-section__title">
@@ -83,7 +83,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
+          <img src="@/assets/img/gallery/service-magic.png" class="d-block w-100">
 
           <div class="carousel-caption">
             <h2 class="heading-2 home-section__title">
