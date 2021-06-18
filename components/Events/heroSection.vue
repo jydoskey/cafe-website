@@ -5,15 +5,31 @@
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
             <img src="@/assets/img/carousel/she-can.jpeg" class="d-block w-100">
+            <div class="indicator-text">
+              <p>Event Category</p>
+              <h6>EVENT NAME COMES HERE</h6>
+            </div>
           </li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1">
             <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
+            <div class="indicator-text">
+              <p>Event Category</p>
+              <h6>EVENT NAME COMES HERE</h6>
+            </div>
           </li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2">
             <img src="@/assets/img/carousel/braithwathe.jpeg" class="d-block w-100">
+            <div class="indicator-text">
+              <p>Event Category</p>
+              <h6>EVENT NAME COMES HERE</h6>
+            </div>
           </li>
           <li data-target="#carouselExampleIndicators" data-slide-to="3">
             <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
+            <div class="indicator-text">
+              <p>Event Category</p>
+              <h6>EVENT NAME COMES HERE</h6>
+            </div>
           </li>
         </ol>
         <ol class="carousel-progress">
@@ -38,11 +54,12 @@
           <img src="@/assets/img/carousel/she-can.jpeg" class="d-block w-100">
           
           <div class="carousel-caption">
+            <p class="event-category">Event Category</p>
             <h2 class="heading-2 home-section__title">
-              Catchy Headline About Slider Item
+              Event One Will be here
             </h2>
             <p class="paragraph">
-              Text about this particular item comes here. The image is also in the background. The CTA is not necessary
+              Some text about event will come here. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
             </p>
             <p>
               10 April 10am - 2pm
@@ -54,11 +71,12 @@
           <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
 
           <div class="carousel-caption">
+            <p class="event-category">Event Category</p>
             <h2 class="heading-2 home-section__title">
-              Catchy Headline About Slider Item
+              Event Two Will be here
             </h2>
             <p class="paragraph">
-              Text about this particular item comes here. The image is also in the background. The CTA is not necessary
+              Some text about event will come here. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
             </p>
             <p>
               10 April 10am - 2pm
@@ -70,11 +88,12 @@
           <img src="@/assets/img/carousel/braithwathe.jpeg" class="d-block w-100">
 
           <div class="carousel-caption">
+            <p class="event-category">Event Category</p>
             <h2 class="heading-2 home-section__title">
-              Catchy Headline About Slider Item
+              Event Three Will be here
             </h2>
             <p class="paragraph">
-              Text about this particular item comes here. The image is also in the background. The CTA is not necessary
+              Some text about event will come here. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
             </p>
             <p>
               10 April 10am - 2pm
@@ -86,11 +105,15 @@
           <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
 
           <div class="carousel-caption">
+            <p class="event-category">Event Category</p>
             <h2 class="heading-2 home-section__title">
-              Catchy Headline About Slider Item
+              Event Four Will be here
             </h2>
             <p class="paragraph">
-              Text about this particular item comes here. The image is also in the background. The CTA is not necessary
+              Some text about event will come here. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            </p>
+            <p>
+              10 April 10am - 2pm
             </p>
             <button class="btn btn-danger">REGISTER</button>
           </div>
@@ -225,9 +248,6 @@
     right: 0;
     left: 0;
     text-align: left;
-    @include breakpoint-max(xl) {
-      padding: 0 0 60px 60px;
-    }
     @include breakpoint-max(lg) {
       padding: 0 0 30px 0;
       right: unset;
@@ -246,6 +266,7 @@
     font-size: 52px;
     line-height: 1.29;
     margin-bottom: 15px;
+    max-width: 400px;
     @include breakpoint-max(lg) {
       font-size: 40px;
       max-width: 95%;
@@ -329,7 +350,7 @@
   }
 
   .carousel-indicators {
-    margin-right: -100px;
+    margin-right: -150px;
     margin-left: 0;
     position: static;
     @include breakpoint-max(lg) {
@@ -338,17 +359,21 @@
   }
 
   .carousel-indicators li {
-    width: 134px;
-    height: 120px;
+    width: 160px;
+    height: 200px;
     opacity: 1;
-    margin: 0 5px;
+    border-radius: 20px;
+    position: relative;
+    margin: 0 10px;
+    text-indent: 0;
     @include breakpoint-max(xl) {
-      width: 120px;
-      height: 107px;
+      width: 150px;
+      height: 187.5px;
     }
     @include breakpoint-max(lg) {
       width: 100px;
       height: 90px;
+      margin: 0 5px;
     }
     @include breakpoint-max(md) {
       width: 50px;
@@ -389,6 +414,7 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
+    border-radius: 10px;
   }
 
   .carousel-progress {
