@@ -226,9 +226,6 @@
     right: 0;
     margin: auto;
     overflow: hidden;
-    @include breakpoint-max (md) {
-      display: block;
-    }
   }
 
   #scene #left-zone {
