@@ -25,6 +25,10 @@ body {
   overflow-x: hidden !important;
 }
 
+.text-red {
+  color: #BC2934;
+}
+
 .app-body {
   display: flex;
   flex-direction: column;
