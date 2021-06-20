@@ -8,9 +8,9 @@
           <h2>Some General Info About<br /> Café One Communities</h2>
         </div>
         <div class="row">
-          <div class="col-md-11">
+          <div class="col-md-12">
             <div class="community align-items-center justify-content-center">
-              <div class="col-md-3 pt-3"><img src="" alt="familiarity-svg"></div>
+              <div class="col-md-4 pt-3"><img src="@/assets/img/community.svg" alt="familiarity-svg"></div>
               <div class="community-text col-md-5">
                 <h6 class="community-h6">
                   Creatives
@@ -42,14 +42,14 @@
                   </button>
                 </div>
               </div>
-              <div class="col-md-3 pt-3">
-                <img src="" alt="affirmation-svg">
+              <div class="col-md-4 pt-3">
+                <img src="@/assets/img/community.svg" alt="affirmation-svg">
               </div>
             </div>
 
             <div class="community align-items-center justify-content-center">
-              <div class="col-md-3 pt-3">
-                <img src="" alt="carefree-svg">
+              <div class="col-md-4 pt-3">
+                <img src="@/assets/img/community.svg" alt="carefree-svg">
               </div>
               <div class="community-text col-md-5">
                 <h6 class="community-h6">Fitness and Wellbeing</h6>
@@ -78,8 +78,8 @@
                   </button>
                 </div>
               </div>
-              <div class="col-md-3 pt-3">
-                <img src="" alt="economists-svg">
+              <div class="col-md-4 pt-3">
+                <img src="@/assets/img/community.svg" alt="economists-svg">
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@
   .community {
     display: flex;
     flex-direction: column;
-    padding-top: 3rem;
+    padding-top: 4rem;
 
     @include breakpoint-min(sm) {
       max-width: unset;
@@ -143,7 +143,7 @@
   .community-reverse {
     display: flex;
     flex-direction: column-reverse;
-    padding-top: 3rem;
+    padding-top: 4rem;
 
     @include breakpoint-min(sm) {
       max-width: unset;
@@ -155,14 +155,14 @@
     }
   }
 
-  .col-md-3 img {
+  .col-md-4 img {
     width: 280px;
     height: 280px;
   }
 
   .communities {
     background-color: #FFF5E4;
-    padding-bottom: 8rem;
+    padding-bottom: 10rem;
     padding-top: 8rem;
   }
 
@@ -219,8 +219,6 @@
   }
 
   .home-section {
-    margin-top: -0.5rem;
-
     @media (min-width: 280px) {
       padding: 0;
     }
