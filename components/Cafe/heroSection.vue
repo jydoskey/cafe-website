@@ -31,7 +31,7 @@
     padding-bottom: 6rem;
     background: url("@/assets/img/cafe-home.png");
     width: 100%;
-    height: 100%;
+    height: 655px;
     object-fit: cover;
     color: #FFFFFF;
 
