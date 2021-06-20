@@ -10,7 +10,8 @@
         <div class="row">
           <div class="col-md-12">
             <div class="community align-items-center justify-content-center">
-              <div class="col-md-4 pt-3"><img src="@/assets/img/community.svg" alt="familiarity-svg"></div>
+              <div class="col-md-4 pt-3 com-col"><img class="community-img" src="@/assets/img/community.svg"
+                  alt="creatives-svg"></div>
               <div class="community-text col-md-5">
                 <h6 class="community-h6">
                   Creatives
@@ -42,14 +43,14 @@
                   </button>
                 </div>
               </div>
-              <div class="col-md-4 pt-3">
-                <img src="@/assets/img/community.svg" alt="affirmation-svg">
+              <div class="col-md-4 pt-3 com-rev-col">
+                <img class="community-img" src="@/assets/img/community.svg" alt="food-club-svg">
               </div>
             </div>
 
             <div class="community align-items-center justify-content-center">
-              <div class="col-md-4 pt-3">
-                <img src="@/assets/img/community.svg" alt="carefree-svg">
+              <div class="col-md-4 pt-3 com-col">
+                <img class="community-img" src="@/assets/img/community.svg" alt="fitness-svg">
               </div>
               <div class="community-text col-md-5">
                 <h6 class="community-h6">Fitness and Wellbeing</h6>
@@ -78,8 +79,8 @@
                   </button>
                 </div>
               </div>
-              <div class="col-md-4 pt-3">
-                <img src="@/assets/img/community.svg" alt="economists-svg">
+              <div class="col-md-4 pt-3 com-rev-col">
+                <img class="community-img" src="@/assets/img/community.svg" alt="new-moms-svg">
               </div>
             </div>
           </div>
@@ -103,7 +104,7 @@
   .community {
     display: flex;
     flex-direction: column;
-    padding-top: 4rem;
+    padding-top: 5rem;
 
     @include breakpoint-min(sm) {
       max-width: unset;
@@ -143,7 +144,7 @@
   .community-reverse {
     display: flex;
     flex-direction: column-reverse;
-    padding-top: 4rem;
+    padding-top: 5rem;
 
     @include breakpoint-min(sm) {
       max-width: unset;
@@ -153,11 +154,6 @@
       flex-direction: row;
       align-items: center;
     }
-  }
-
-  .col-md-4 img {
-    width: 280px;
-    height: 280px;
   }
 
   .communities {
@@ -290,14 +286,14 @@
   }
 
   .p-style {
+    color: #303030;
+
     @media (min-width: 280px) {
       font-size: 0.75rem;
-      color: #303030;
     }
 
     @media (min-width: 425px) {
       font-size: 1rem;
-      color: #303030;
     }
 
     @media (min-width: 576px) {
@@ -313,6 +309,58 @@
     border-radius: 0% !important;
     font-size: 16px;
     height: 3.5rem;
+  }
+
+  .community-img {
+    width: 280px;
+    height: 280px;
+    z-index: 999;
+  }
+
+  .com-col {
+    position: relative;
+    z-index: 1;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0rem;
+      top: 3rem;
+      width: 280px;
+      height: 280px;
+      z-index: -1;
+      background: rgba(196, 196, 196, 0.27);
+    }
+
+    @include breakpoint-max (md) {
+      &::after {
+        content: "";
+        background: #FFF5E4;
+      }
+    }
+  }
+
+  .com-rev-col {
+    position: relative;
+    z-index: 1;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 1.8rem;
+      top: 3rem;
+      width: 280px;
+      height: 280px;
+      z-index: -1;
+      background: rgba(196, 196, 196, 0.27);
+    }
+
+    @include breakpoint-max (md) {
+      &::after {
+        content: "";
+        background: #FFF5E4;
+      }
+    }
   }
 
 </style>
