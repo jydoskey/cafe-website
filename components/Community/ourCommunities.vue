@@ -159,7 +159,7 @@
   .communities {
     background-color: #FFF5E4;
     padding-bottom: 10rem;
-    padding-top: 8rem;
+    padding-top: 4rem;
   }
 
   .container {
