@@ -1,6 +1,6 @@
 <template>
   <section class="hero-section">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-lg-5">
           <h1 class="hero-section__header">Interested In <span class="text-red">Working</span><br /> From A
@@ -8,7 +8,7 @@
             Environment?</h1>
           <p class="hero-section__description">Our Co-working space is for you</p>
           <div class="text-center pt-2">
-            <button type="submit" id="submit" name="submit" class="col-8 btn btn-lg btn-block btn-red  mr-auto ml-auto">
+            <button type="submit" id="submit" name="submit" class="col-8 btn btn-lg btn-block btn-red">
               BOOK A SPACE
             </button>
           </div>
@@ -83,7 +83,6 @@
 
     @include breakpoint-min(lg) {
       text-align: start;
-      left: 4rem;
       position: relative;
       margin-bottom: 3rem;
       width: 40rem;
@@ -95,7 +94,7 @@
   }
 
   .hero-section__description {
-    text-align: center;
+    text-align: start;
     font-family: Lato;
     font-style: normal;
     font-weight: 500;
@@ -103,8 +102,8 @@
     line-height: 30px;
     color: #6A6A6A;
 
-    @include breakpoint-min(lg) {
-      text-align: start;
+    @include breakpoint-max(lg) {
+      text-align: center;
     }
   }
 
