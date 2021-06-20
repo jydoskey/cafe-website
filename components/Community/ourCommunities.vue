@@ -10,9 +10,9 @@
         <div class="row">
           <div class="col-md-12">
             <div class="community align-items-center justify-content-center">
-              <div class="col-md-4 pt-3 com-col"><img class="community-img" src="@/assets/img/community.svg"
+              <div class="col-lg-4 pt-3 com-col"><img class="community-img" src="@/assets/img/community.svg"
                   alt="creatives-svg"></div>
-              <div class="community-text col-md-5">
+              <div class="community-text col-lg-5">
                 <h6 class="community-h6">
                   Creatives
                 </h6>
@@ -29,7 +29,7 @@
             </div>
 
             <div class="community-reverse align-items-center justify-content-center">
-              <div class="community-text col-md-5">
+              <div class="community-text col-lg-5">
                 <h6 class="community-h6">
                   Food Club
                 </h6>
@@ -43,16 +43,16 @@
                   </button>
                 </div>
               </div>
-              <div class="col-md-4 pt-3 com-rev-col">
+              <div class="col-lg-4 pt-3 com-rev-col">
                 <img class="community-img" src="@/assets/img/community.svg" alt="food-club-svg">
               </div>
             </div>
 
             <div class="community align-items-center justify-content-center">
-              <div class="col-md-4 pt-3 com-col">
+              <div class="col-lg-4 pt-3 com-col">
                 <img class="community-img" src="@/assets/img/community.svg" alt="fitness-svg">
               </div>
-              <div class="community-text col-md-5">
+              <div class="community-text col-lg-5">
                 <h6 class="community-h6">Fitness and Wellbeing</h6>
                 <p class="community-p">
                   Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Curabitur aliquet
@@ -67,7 +67,7 @@
             </div>
 
             <div class="community-reverse align-items-center justify-content-center">
-              <div class="community-text col-md-5">
+              <div class="community-text col-lg-5">
                 <h6 class="community-h6">New Moms</h6>
                 <p class="community-p">
                   Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Curabitur aliquet
@@ -79,7 +79,7 @@
                   </button>
                 </div>
               </div>
-              <div class="col-md-4 pt-3 com-rev-col">
+              <div class="col-lg-4 pt-3 com-rev-col">
                 <img class="community-img" src="@/assets/img/community.svg" alt="new-moms-svg">
               </div>
             </div>
