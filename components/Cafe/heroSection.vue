@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1 class="hero-section__header">Welcome to Café One Café</h1>
+          <h1 class="hero-section__header">Café One</h1>
           <p class="hero-section__description">Some info about community comes here. Nulla porttitor<br /> accumsan
             tincidunt.
             Curabitur aliquet quam id dui<br /> posuere blandit. Curabitur aliquet quam id dui posuere<br /> blandit.

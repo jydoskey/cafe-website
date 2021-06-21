@@ -286,7 +286,7 @@
   #scene #left-zone .list li.item input[type="radio"]~.content.content_cozy-cafe .picto {
     height: 100%;
     width: 100%;
-    background-image: url('@/assets/img/gallery/gallery-1.jpeg');
+    background-image: url('@/assets/img/gallery/gallery-4.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -295,7 +295,7 @@
   #scene #left-zone .list li.item input[type="radio"]~.content.content_parking-area .picto {
     height: 100%;
     width: 100%;
-    background-image: url('@/assets/img/gallery/gallery-8.jpeg');
+    background-image: url('@/assets/img/gallery/gallery-10.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
