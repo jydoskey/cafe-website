@@ -17,8 +17,13 @@
                       <div class="flex-column-1 ">
                         <img src="@/assets/img/event-1.jpeg" alt="img-1">
                       </div>
-                      <div class="flex-column-2-red">
-
+                      <div class="d-flex flex-column-2-red align-items-center">
+                        <div class="event-time p-2">
+                          <span>10 April</span>
+                        </div>
+                        <div class="event-time text-center">
+                          <span>9am - 10am</span>
+                        </div>
                       </div>
                     </a>
                   </div>
@@ -27,8 +32,13 @@
                       <div class="flex-column-1 ">
                         <img src="@/assets/img/event-2.jpeg" alt="img-2">
                       </div>
-                      <div class="flex-column-2-red">
-
+                      <div class="d-flex flex-column-2-red align-items-center">
+                        <div class="event-time p-2">
+                          <span>5 March '20</span>
+                        </div>
+                        <div class="event-time text-center">
+                          <span>6:35pm - 9am</span>
+                        </div>
                       </div>
                     </a>
                   </div>
@@ -37,44 +47,13 @@
                       <div class="flex-column-1 ">
                         <img src="@/assets/img/event-3.jpeg" alt="img-3">
                       </div>
-                      <div class="flex-column-2-red">
-
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-inner pt-5">
-              <div class="carousel-item carousel-item-next carousel-item-left">
-                <div class="d-flex justify-content-between">
-                  <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
-                    <a href="#" class="introduce">
-                      <div class="flex-column-1 ">
-                        <img src="@/assets/img/event-1.jpeg" alt="img-1">
-                      </div>
-                      <div class="flex-column-2-red">
-
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
-                    <a href="#" class="introduce">
-                      <div class="flex-column-1 ">
-                        <img src="@/assets/img/event-2.jpeg" alt="img-2">
-                      </div>
-                      <div class="flex-column-2-red">
-
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column pl-2 pr-2">
-                    <a href="#" class="introduce">
-                      <div class="flex-column-1 ">
-                        <img src="@/assets/img/event-3.jpeg" alt="img-3">
-                      </div>
-                      <div class="flex-column-2-red">
-
+                      <div class="d-flex flex-column-2-red align-items-center">
+                        <div class="event-time p-2">
+                          <span>30 November '19</span>
+                        </div>
+                        <div class="event-time text-center">
+                          <span>8am - 10am</span>
+                        </div>
                       </div>
                     </a>
                   </div>
@@ -90,10 +69,6 @@
 <script>
   export default {
     name: "pastEvents",
-    data() {
-      return {}
-    },
-
   };
 
 </script>
@@ -265,6 +240,20 @@
     color: #222831;
     margin: 0;
     font-family: Lato;
+  }
+
+  .event-time span {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    display: block;
+  }
+
+  .event-time {
+    width: 50%;
   }
 
 </style>
