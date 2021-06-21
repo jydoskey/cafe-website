@@ -6,29 +6,29 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
             <img src="@/assets/img/carousel/she-can.jpeg" class="d-block w-100">
             <div class="indicator-text">
-              <p>Event Category</p>
-              <h6>EVENT NAME COMES HERE</h6>
+              <p>International Women Day</p>
+              <h6>#Shecan</h6>
             </div>
           </li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1">
             <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
             <div class="indicator-text">
-              <p>Event Category</p>
-              <h6>EVENT NAME COMES HERE</h6>
+              <p>Book Launch</p>
+              <h6>In Conversation With Adaobi Tracia Nwaubani</h6>
             </div>
           </li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2">
             <img src="@/assets/img/carousel/braithwathe.jpeg" class="d-block w-100">
             <div class="indicator-text">
-              <p>Event Category</p>
-              <h6>EVENT NAME COMES HERE</h6>
+              <p>Book Reading</p>
+              <h6>In conversation with Oyinkan Braithwaite</h6>
             </div>
           </li>
           <li data-target="#carouselExampleIndicators" data-slide-to="3">
-            <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
+            <img src="@/assets/img/suyi.jpeg" class="d-block w-100">
             <div class="indicator-text">
-              <p>Event Category</p>
-              <h6>EVENT NAME COMES HERE</h6>
+              <p>Book Launch</p>
+              <h6>In Conversation With Suyi</h6>
             </div>
           </li>
         </ol>
@@ -54,12 +54,12 @@
           <img src="@/assets/img/carousel/she-can.jpeg" class="d-block w-100">
           
           <div class="carousel-caption">
-            <p class="event-category">Event Category</p>
+            <p class="event-category">International Women Day</p>
             <h2 class="heading-2 home-section__title">
-              Event One Will be here
+              #SheCan
             </h2>
             <p class="paragraph">
-              Some text about event will come here. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              We got together 33 female entrepreneurs doing phenomenal stuff; contributing to the narrative of a balanced world
             </p>
             <p>
               10 April 10am - 2pm
@@ -71,12 +71,12 @@
           <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
 
           <div class="carousel-caption">
-            <p class="event-category">Event Category</p>
+            <p class="event-category">Book Launch</p>
             <h2 class="heading-2 home-section__title">
-              Event Two Will be here
+              #InConversation<br />WithAdaobi
             </h2>
             <p class="paragraph">
-              Some text about event will come here. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Launch of Buried Beaneth the Baobab Tree by Adaobi Tracia Nwaubani
             </p>
             <p>
               10 April 10am - 2pm
@@ -88,32 +88,32 @@
           <img src="@/assets/img/carousel/braithwathe.jpeg" class="d-block w-100">
 
           <div class="carousel-caption">
-            <p class="event-category">Event Category</p>
+            <p class="event-category">Book Reading</p>
             <h2 class="heading-2 home-section__title">
-              Event Three Will be here
+              #Inconversationwith<br />OyinkanBraithwaite
             </h2>
             <p class="paragraph">
-              Some text about event will come here. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              My Sister, The Serial Killer
             </p>
             <p>
-              10 April 10am - 2pm
+              22 September 4pm - 6pm
             </p>
             <button class="btn btn-danger">REGISTER</button>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="@/assets/img/carousel/adaobi.jpeg" class="d-block w-100">
+          <img src="@/assets/img/suyi.jpeg" class="d-block w-100">
 
           <div class="carousel-caption">
-            <p class="event-category">Event Category</p>
+            <p class="event-category">Book Launch</p>
             <h2 class="heading-2 home-section__title">
-              Event Four Will be here
+              #InConversationWithSuyi
             </h2>
             <p class="paragraph">
-              Some text about event will come here. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Suyi Davies Okungbowa: a reading and signing evening for the delicious debut David Mogo, Godhunter.
             </p>
             <p>
-              10 April 10am - 2pm
+              14 July '19 10am - 2pm
             </p>
             <button class="btn btn-danger">REGISTER</button>
           </div>
