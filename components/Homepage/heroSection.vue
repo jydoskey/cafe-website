@@ -4,16 +4,16 @@
       <div class="carousel-indicators-group">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
-            <img src="@/assets/img/gallery/gallery-1.jpeg" class="d-block w-100">
+            <img src="@/assets/img/announcement-1.jpeg" class="d-block w-100">
           </li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1">
-            <img src="@/assets/img/gallery/carousel-yoga.jpeg" class="d-block w-100">
+            <img src="@/assets/img/announcement-2.jpeg" class="d-block w-100">
           </li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2">
-            <img src="@/assets/img/gallery/gallery-3.jpeg" class="d-block w-100">
+            <img src="@/assets/img/gallery/service-magic.png" class="d-block w-100">
           </li>
           <li data-target="#carouselExampleIndicators" data-slide-to="3">
-            <img src="@/assets/img/gallery/service-magic.png" class="d-block w-100">
+            <img src="@/assets/img/gallery/gallery-3.jpeg" class="d-block w-100">
           </li>
         </ol>
         <ol class="carousel-progress">
@@ -35,51 +35,35 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="@/assets/img/gallery/gallery-1.jpeg" class="d-block w-100">
+          <img src="@/assets/img/announcement-1.jpeg" class="d-block w-100">
 
           <div class="carousel-caption">
             <h2 class="heading-2 home-section__title">
-              Catchy Headline About Slider Item
+              Sip, paint and mingle
             </h2>
             <p class="paragraph">
-              Text about this particular item comes here. The image is also in the background. The CTA is not necessary
+              Come have the best time with your date doing fun things.
             </p>
             <p>
-              10 April 10am - 2pm
+              19 June 5PM - 7PM
             </p>
-            <button class="btn btn-danger">TAKE A TOUR</button>
+            <button class="btn btn-danger"></button>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="@/assets/img/gallery/carousel-yoga.jpeg" class="d-block w-100">
+          <img src="@/assets/img/announcement-2.jpeg" class="d-block w-100">
 
           <div class="carousel-caption">
             <h2 class="heading-2 home-section__title">
-              Catchy Headline About Slider Item
+              In Conversation with Aké Edition
             </h2>
             <p class="paragraph">
-              Text about this particular item comes here. The image is also in the background. The CTA is not necessary
+              <span class="text-red">Niki Igbaroola</span> Writer and Editor, Distinguished Diva
             </p>
             <p>
-              10 April 10am - 2pm
+              27 October 2pm - 4pm
             </p>
-            <button class="btn btn-danger">TAKE A TOUR</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="@/assets/img/gallery/gallery-3.jpeg" class="d-block w-100">
-
-          <div class="carousel-caption">
-            <h2 class="heading-2 home-section__title">
-              Catchy Headline About Slider Item
-            </h2>
-            <p class="paragraph">
-              Text about this particular item comes here. The image is also in the background. The CTA is not necessary
-            </p>
-            <p>
-              10 April 10am - 2pm
-            </p>
-            <button class="btn btn-danger">TAKE A TOUR</button>
+            <button class="btn btn-danger"></button>
           </div>
         </div>
         <div class="carousel-item">
@@ -87,12 +71,30 @@
 
           <div class="carousel-caption">
             <h2 class="heading-2 home-section__title">
-              Catchy Headline About Slider Item
+              The magic of service
             </h2>
             <p class="paragraph">
-              Text about this particular item comes here. The image is also in the background. The CTA is not necessary
+              Service magic is an art and depends on developing customer rapport, excellent timing, and many hours of
+              practice.
             </p>
-            <button class="btn btn-danger">TAKE A TOUR</button>
+            <p></p>
+            <button class="btn btn-danger"></button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="@/assets/img/gallery/gallery-3.jpeg" class="d-block w-100">
+
+          <div class="carousel-caption">
+            <h2 class="heading-2 home-section__title">
+              Welcome to CaféOne
+            </h2>
+            <p class="paragraph">
+              Where innovation meets community.
+            </p>
+            <p>Mon - Fri 8am - 8pm</p>
+            <p>Sat & Pub Hol 10am - 8pm</p>
+            <p>Sun closed</p>
+            <button class="btn btn-danger"></button>
           </div>
         </div>
       </div>
@@ -319,7 +321,8 @@
     margin-top: 40px;
     width: 340px;
     height: 63px;
-    background-color: #BC2934;
+    background-color: transparent;
+    border: 0;
     border-radius: 0;
 
     @include breakpoint-max(lg) {
@@ -470,7 +473,7 @@
   .overlay {
     position: absolute;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
     z-index: 1;
