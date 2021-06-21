@@ -48,6 +48,10 @@
     border-radius: 0% !important;
     font-size: 16px;
     height: 3.5rem;
+    @include breakpoint-max (md) {
+      margin: 0 auto;
+      margin-bottom: 2rem;
+    }
   }
 
   .hero-image {
