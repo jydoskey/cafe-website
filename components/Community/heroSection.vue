@@ -4,8 +4,7 @@
       <div class="row">
         <div class="col-lg-5 header-text">
           <h1 class="hero-section__header">Welcome To Café<br /><span class="text-red">One Community</span></h1>
-          <p class="hero-section__description">Some info about community comes here. Nulla port accumsan tincidunt. Cura
-            aliquet quam id dui posuere blandi
+          <p class="hero-section__description">Looking to meet people and network? Join a community today
           </p>
         </div>
         <div class="col-lg-7">
