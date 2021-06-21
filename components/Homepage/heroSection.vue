@@ -36,7 +36,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="@/assets/img/gallery/gallery-1.jpeg" class="d-block w-100">
-          
+
           <div class="carousel-caption">
             <h2 class="heading-2 home-section__title">
               Catchy Headline About Slider Item
@@ -47,7 +47,7 @@
             <p>
               10 April 10am - 2pm
             </p>
-            <button class="btn btn-danger">REGISTER</button>
+            <button class="btn btn-danger">TAKE A TOUR</button>
           </div>
         </div>
         <div class="carousel-item">
@@ -63,7 +63,7 @@
             <p>
               10 April 10am - 2pm
             </p>
-            <button class="btn btn-danger">REGISTER</button>
+            <button class="btn btn-danger">TAKE A TOUR</button>
           </div>
         </div>
         <div class="carousel-item">
@@ -79,7 +79,7 @@
             <p>
               10 April 10am - 2pm
             </p>
-            <button class="btn btn-danger">REGISTER</button>
+            <button class="btn btn-danger">TAKE A TOUR</button>
           </div>
         </div>
         <div class="carousel-item">
@@ -92,7 +92,7 @@
             <p class="paragraph">
               Text about this particular item comes here. The image is also in the background. The CTA is not necessary
             </p>
-            <button class="btn btn-danger">REGISTER</button>
+            <button class="btn btn-danger">TAKE A TOUR</button>
           </div>
         </div>
       </div>
@@ -207,8 +207,12 @@
     }
   }
 
-  .carousel.slide, .carousel-inner, .carousel-item, .carousel-inner img {
+  .carousel.slide,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-inner img {
     height: 660px;
+
     @include breakpoint-max (md) {
       height: 550px;
     }
@@ -225,9 +229,11 @@
     right: 0;
     left: 0;
     text-align: left;
+
     @include breakpoint-max(xl) {
       padding: 0 0 60px 60px;
     }
+
     @include breakpoint-max(lg) {
       padding: 0 0 30px 0;
       right: unset;
@@ -235,6 +241,7 @@
       transform: translateX(-50%);
       bottom: 180px;
     }
+
     @include breakpoint-max(md) {
       bottom: 120px;
     }
@@ -246,18 +253,22 @@
     font-size: 52px;
     line-height: 1.29;
     margin-bottom: 15px;
+
     @include breakpoint-max(lg) {
       font-size: 40px;
       max-width: 95%;
       margin: 0 auto 15px auto;
     }
+
     @include breakpoint-max(md) {
       max-width: 512px;
     }
+
     @include breakpoint-max(sm) {
       font-size: 35px;
       max-width: 400px;
     }
+
     @include breakpoint-max(xs) {
       font-size: 28px;
       max-width: unset;
@@ -273,21 +284,27 @@
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 12px;
+
     @include breakpoint-max(xl) {
       max-width: 350px;
     }
+
     @include breakpoint-max(lg) {
       font-size: 16px;
-      margin: 0 auto 16px auto;;
+      margin: 0 auto 16px auto;
+      ;
     }
+
     @include breakpoint-max(xs) {
       max-width: 95%;
     }
   }
 
-  .carousel-caption h2, .carousel-caption p {
+  .carousel-caption h2,
+  .carousel-caption p {
     color: #ffffff;
     text-align: left;
+
     @include breakpoint-max(lg) {
       text-align: center;
     }
@@ -304,6 +321,7 @@
     height: 63px;
     background-color: #BC2934;
     border-radius: 0;
+
     @include breakpoint-max(lg) {
       display: block;
       width: 250px;
@@ -320,6 +338,7 @@
     display: flex;
     overflow: hidden;
     flex-direction: column;
+
     @include breakpoint-max(lg) {
       right: unset;
       left: 50%;
@@ -332,6 +351,7 @@
     margin-right: -100px;
     margin-left: 0;
     position: static;
+
     @include breakpoint-max(lg) {
       margin-right: 0;
     }
@@ -342,14 +362,17 @@
     height: 120px;
     opacity: 1;
     margin: 0 5px;
+
     @include breakpoint-max(xl) {
       width: 120px;
       height: 107px;
     }
+
     @include breakpoint-max(lg) {
       width: 100px;
       height: 90px;
     }
+
     @include breakpoint-max(md) {
       width: 50px;
       height: 45px;
@@ -363,6 +386,7 @@
     height: fit-content;
     z-index: 1;
     padding: 0 10px;
+
     @include breakpoint-max(lg) {
       display: none;
     }
@@ -409,6 +433,7 @@
     background-color: rgba(255, 255, 255, 0.66);
     width: 257px;
     margin: 0 24px;
+
     @include breakpoint-max(md) {
       width: 150px;
     }
@@ -424,6 +449,7 @@
     width: 60px;
     height: 3px;
     list-style: none;
+
     @include breakpoint-max(md) {
       width: 30px;
     }
@@ -433,7 +459,8 @@
     background-color: #BC2934;
   }
 
-  .carousel-control-prev, .carousel-control-next {
+  .carousel-control-prev,
+  .carousel-control-next {
     position: static;
     width: fit-content;
   }
