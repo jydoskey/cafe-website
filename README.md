@@ -1,5 +1,8 @@
 # cafe-website
 
+### Preview
+https://cafe-one-sample.netlify.app/
+
 ## Build Setup
 
 ```bash
@@ -13,8 +16,6 @@ $ npm run dev
 $ npm run build
 $ npm run start
 
-#Demo Link
-$https://cafe-one-sample.netlify.app/
 
 # generate static project
 $ npm run generate
