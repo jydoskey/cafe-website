@@ -38,7 +38,7 @@
           <img src="@/assets/img/announcement-1.jpeg" class="d-block w-100">
 
           <div class="carousel-caption">
-            <h2 class="heading-2 home-section__title">
+            <!-- <h2 class="heading-2 home-section__title">
               Sip, paint and mingle
             </h2>
             <p class="paragraph">
@@ -46,7 +46,7 @@
             </p>
             <p>
               19 June 5PM - 7PM
-            </p>
+            </p> -->
             <button class="btn btn-danger"></button>
           </div>
         </div>
