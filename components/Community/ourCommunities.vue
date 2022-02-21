@@ -313,8 +313,10 @@
 
   .community-img {
     width: 280px;
+    background-size: cover;
     height: 280px;
     z-index: 999;
+    background-size:contain;
   }
 
   .com-col {

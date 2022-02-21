@@ -48,7 +48,6 @@
 
     @include breakpoint-min(lg) {
       top: -9rem;
-      right: -4rem;
       position: relative;
       width: 100%;
       max-width: 842px;
@@ -60,6 +59,7 @@
   .col-lg-7 {
     @include breakpoint-min (lg) {
       padding: 0;
+      right: -6.5rem;
     }
   }
 
