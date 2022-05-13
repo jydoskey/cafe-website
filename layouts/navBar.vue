@@ -3,7 +3,7 @@
     <div class="container">
       <div class="logo">
         <NuxtLink to="/">
-          <img src="../assets/cafe-one-logo.svg" alt="" />
+          <img src="@/assets/cafe-one-logo.svg" alt="" />
         </NuxtLink>
       </div>
       <div class="links d-none d-lg-flex">
@@ -67,12 +67,9 @@
         this.scrollPosition = window.scrollY;
       },
       toggleMobileNav() {
-        console.log("Hi");
-        console.log(this.isNavShown);
         this.isNavShown = !this.isNavShown;
       },
       closeMobileNav() {
-        console.log("kill");
         this.isNavShown = false;
       },
     },
